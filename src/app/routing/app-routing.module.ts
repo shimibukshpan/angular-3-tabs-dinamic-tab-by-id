@@ -5,11 +5,11 @@ import { Tab3Component } from '../tab3/tab3.component';
 
 const arr: Routes = [
 
-{path: '', redirectTo: '/tab1', pathMatch: 'full'},
-{path: 'tab1', component: Tab1Component},
-{path: 'tab2', component: Tab2Component},
-{path:'tab3', component: Tab3Component },
-{path:'tab3/:id', component: Tab3Component }
+{path: '', redirectTo: '/DASHBOARD', pathMatch: 'full'},
+{path: 'DASHBOARD', component: Tab1Component},
+{path: 'SETTINGS', component: Tab2Component},
+{path:'USERS', component: Tab3Component },
+{path:'USERS/:id', component: Tab3Component }
 ];
 
 
